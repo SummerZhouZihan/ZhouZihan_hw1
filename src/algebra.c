@@ -1,11 +1,8 @@
 #include "algebra.h"
 #include <stdio.h>
 #include <math.h>
-<<<<<<< HEAD
-=======
 #include <stdlib.h>
 #include <malloc.h>
->>>>>>> 3b5cf6f (test4)
 
 Matrix create_matrix(int row, int col)
 {
@@ -14,61 +11,7 @@ Matrix create_matrix(int row, int col)
     m.cols = col;
     return m;
 }
-<<<<<<< HEAD
 
-Matrix add_matrix(Matrix a, Matrix b)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-Matrix sub_matrix(Matrix a, Matrix b)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-Matrix mul_matrix(Matrix a, Matrix b)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-Matrix scale_matrix(Matrix a, double k)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-Matrix transpose_matrix(Matrix a)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-double det_matrix(Matrix a)
-{
-    // ToDo
-    return 0;
-}
-
-Matrix inv_matrix(Matrix a)
-{
-    // ToDo
-    return create_matrix(0, 0);
-}
-
-int rank_matrix(Matrix a)
-{
-    // ToDo
-    return 0;
-}
-
-double trace_matrix(Matrix a)
-{
-    // ToDo
-    return 0;
-=======
 /**
  *矩阵加法
 */
@@ -439,7 +382,6 @@ double trace_matrix(Matrix a)
         j++;
     }
     return result;
->>>>>>> 3b5cf6f (test4)
 }
 
 void print_matrix(Matrix a)
