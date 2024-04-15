@@ -3,10 +3,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/algebra.c.obj.d"
   "CMakeFiles/main.dir/src/main.c.obj"
   "CMakeFiles/main.dir/src/main.c.obj.d"
-  "D:/gitcode/algebra/bin/libmain.dll.a"
-  "D:/gitcode/algebra/bin/main.exe"
-  "D:/gitcode/algebra/bin/main.exe.manifest"
-  "D:/gitcode/algebra/bin/main.pdb"
+  "D:/gitcode/algebra1/bin/libmain.dll.a"
+  "D:/gitcode/algebra1/bin/main.exe"
+  "D:/gitcode/algebra1/bin/main.exe.manifest"
+  "D:/gitcode/algebra1/bin/main.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

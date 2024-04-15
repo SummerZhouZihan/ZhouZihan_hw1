@@ -54,9 +54,8 @@ Matrix scale_matrix(Matrix a, double k);
  * @param a 矩阵a
  * @return a的转置矩阵
 */
-<<<<<<< HEAD
-Matrix transpose_matrix(Matrix a);
-=======
+
+
 Matrix transpose_matrix(Matrix *a);
 
 int inversion_number(int *array, int N);
@@ -71,7 +70,6 @@ int find(int *array,int N , int value);
  *计算行列式的辅助函数
 */
 void dfs(float *res,Matrix m ,int i ,int j ,int *cols);
->>>>>>> 3b5cf6f (test4)
 
 /**
  * @brief 矩阵的行列式
@@ -80,8 +78,7 @@ void dfs(float *res,Matrix m ,int i ,int j ,int *cols);
 */
 double det_matrix(Matrix a);
 
-<<<<<<< HEAD
-=======
+
 /*
  *余子式
 */
@@ -93,7 +90,7 @@ float confactor(Matrix m, int i, int j);
 */
 float algebraic_confactor(Matrix m, int i, int j);
 
->>>>>>> 3b5cf6f (test4)
+
 /**
  * @brief 矩阵的逆
  * @param a 矩阵a
@@ -101,8 +98,7 @@ float algebraic_confactor(Matrix m, int i, int j);
 */
 Matrix inv_matrix(Matrix a);
 
-<<<<<<< HEAD
-=======
+
 /*
  *交换两行
 */
@@ -128,7 +124,6 @@ void col_trans_swap(Matrix *m, int i, int j);
 */
 void col_trans_sub(Matrix *m, int i , int j ,float multiple);
 
->>>>>>> 3b5cf6f (test4)
 /**
  * @brief 矩阵的秩
  * @param a 矩阵a

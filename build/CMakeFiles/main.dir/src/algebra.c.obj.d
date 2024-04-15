@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/algebra.c.obj: D:\gitcode\algebra\src\algebra.c \
- D:\gitcode\algebra\src\algebra.h C:/msys64/ucrt64/include/stdio.h \
+CMakeFiles/main.dir/src/algebra.c.obj: D:\gitcode\algebra1\src\algebra.c \
+ D:/gitcode/algebra1/inc/algebra.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \

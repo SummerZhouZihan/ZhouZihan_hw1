@@ -1,4 +1,4 @@
-CMakeFiles/main.dir/src/main.c.obj: D:\gitcode\algebra\src\main.c \
+CMakeFiles/main.dir/src/main.c.obj: D:\gitcode\algebra1\src\main.c \
  C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
  C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
@@ -17,4 +17,4 @@ CMakeFiles/main.dir/src/main.c.obj: D:\gitcode\algebra\src\main.c \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
  C:/msys64/ucrt64/include/limits.h \
  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/errno.h D:\gitcode\algebra\src\algebra.h
+ C:/msys64/ucrt64/include/errno.h D:/gitcode/algebra1/inc/algebra.h

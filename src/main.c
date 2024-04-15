@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #include <malloc.h>
-
 #include "algebra.h"
 
 int main()
