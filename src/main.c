@@ -1,4 +1,8 @@
 #include <stdio.h>
+<<<<<<< HEAD
+=======
+#include <malloc.h>
+>>>>>>> 3b5cf6f (test4)
 #include "algebra.h"
 
 int main()
@@ -113,7 +117,11 @@ int main()
                         scanf("%lf", &a.data[i][j]);
                     }
                 }
+<<<<<<< HEAD
                 Matrix b = transpose_matrix(a);
+=======
+                Matrix b = transpose_matrix(&a);
+>>>>>>> 3b5cf6f (test4)
                 print_matrix(b);
                 break;
             }
