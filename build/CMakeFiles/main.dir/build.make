@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\gitcode\algebra
+CMAKE_SOURCE_DIR = D:\gitcode\algebra1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\gitcode\algebra\build
+CMAKE_BINARY_DIR = D:\gitcode\algebra1\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -70,33 +70,33 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/includes_C.rsp
-CMakeFiles/main.dir/src/algebra.c.obj: D:/gitcode/algebra/src/algebra.c
+CMakeFiles/main.dir/src/algebra.c.obj: D:/gitcode/algebra1/src/algebra.c
 CMakeFiles/main.dir/src/algebra.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\gitcode\algebra\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/algebra.c.obj"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/algebra.c.obj -MF CMakeFiles\main.dir\src\algebra.c.obj.d -o CMakeFiles\main.dir\src\algebra.c.obj -c D:\gitcode\algebra\src\algebra.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\gitcode\algebra1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/src/algebra.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/algebra.c.obj -MF CMakeFiles\main.dir\src\algebra.c.obj.d -o CMakeFiles\main.dir\src\algebra.c.obj -c D:\gitcode\algebra1\src\algebra.c
 
 CMakeFiles/main.dir/src/algebra.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/algebra.c.i"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\gitcode\algebra\src\algebra.c > CMakeFiles\main.dir\src\algebra.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\gitcode\algebra1\src\algebra.c > CMakeFiles\main.dir\src\algebra.c.i
 
 CMakeFiles/main.dir/src/algebra.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/algebra.c.s"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\gitcode\algebra\src\algebra.c -o CMakeFiles\main.dir\src\algebra.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\gitcode\algebra1\src\algebra.c -o CMakeFiles\main.dir\src\algebra.c.s
 
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/includes_C.rsp
-CMakeFiles/main.dir/src/main.c.obj: D:/gitcode/algebra/src/main.c
+CMakeFiles/main.dir/src/main.c.obj: D:/gitcode/algebra1/src/main.c
 CMakeFiles/main.dir/src/main.c.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\gitcode\algebra\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/main.c.obj"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles\main.dir\src\main.c.obj.d -o CMakeFiles\main.dir\src\main.c.obj -c D:\gitcode\algebra\src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\gitcode\algebra1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/main.c.obj"
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.c.obj -MF CMakeFiles\main.dir\src\main.c.obj.d -o CMakeFiles\main.dir\src\main.c.obj -c D:\gitcode\algebra1\src\main.c
 
 CMakeFiles/main.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/src/main.c.i"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\gitcode\algebra\src\main.c > CMakeFiles\main.dir\src\main.c.i
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\gitcode\algebra1\src\main.c > CMakeFiles\main.dir\src\main.c.i
 
 CMakeFiles/main.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/src/main.c.s"
-	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\gitcode\algebra\src\main.c -o CMakeFiles\main.dir\src\main.c.s
+	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\gitcode\algebra1\src\main.c -o CMakeFiles\main.dir\src\main.c.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -106,17 +106,17 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/src/algebra.c.obj
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/src/main.c.obj
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/build.make
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
-D:/gitcode/algebra/bin/main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\gitcode\algebra\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable D:\gitcode\algebra\bin\main.exe"
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/src/algebra.c.obj
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/src/main.c.obj
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/build.make
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/linkLibs.rsp
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/objects1.rsp
+D:/gitcode/algebra1/bin/main.exe: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\gitcode\algebra1\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable D:\gitcode\algebra1\bin\main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: D:/gitcode/algebra/bin/main.exe
+CMakeFiles/main.dir/build: D:/gitcode/algebra1/bin/main.exe
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/clean:
@@ -124,6 +124,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\gitcode\algebra D:\gitcode\algebra D:\gitcode\algebra\build D:\gitcode\algebra\build D:\gitcode\algebra\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\gitcode\algebra1 D:\gitcode\algebra1 D:\gitcode\algebra1\build D:\gitcode\algebra1\build D:\gitcode\algebra1\build\CMakeFiles\main.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

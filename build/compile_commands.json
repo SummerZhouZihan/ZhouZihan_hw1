@@ -1,14 +1,14 @@
 [
 {
-  "directory": "D:/gitcode/algebra/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -O2 -g -DNDEBUG -o CMakeFiles\\main.dir\\src\\algebra.c.obj -c D:\\gitcode\\algebra\\src\\algebra.c",
-  "file": "D:/gitcode/algebra/src/algebra.c",
+  "directory": "D:/gitcode/algebra1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\algebra.c.obj -c D:\\gitcode\\algebra1\\src\\algebra.c",
+  "file": "D:/gitcode/algebra1/src/algebra.c",
   "output": "CMakeFiles/main.dir/src/algebra.c.obj"
 },
 {
-  "directory": "D:/gitcode/algebra/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -O2 -g -DNDEBUG -o CMakeFiles\\main.dir\\src\\main.c.obj -c D:\\gitcode\\algebra\\src\\main.c",
-  "file": "D:/gitcode/algebra/src/main.c",
+  "directory": "D:/gitcode/algebra1/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -o CMakeFiles\\main.dir\\src\\main.c.obj -c D:\\gitcode\\algebra1\\src\\main.c",
+  "file": "D:/gitcode/algebra1/src/main.c",
   "output": "CMakeFiles/main.dir/src/main.c.obj"
 }
 ]
