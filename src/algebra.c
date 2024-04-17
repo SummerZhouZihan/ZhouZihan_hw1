@@ -133,7 +133,7 @@ void dfs(float *res,Matrix m ,int i ,int j ,int *cols){
         for(int k = 0; k < m.rows; k++){
             temp = temp * m.data[k][cols[k]];
         }
-        *res = *res + pow(-1, inversion_number(cols, m.rows)) * temp;
+        *res = *res + (inversion_number(cols, m.rows) % 2 ? -1 : 1) * temp;
     }
 
     for(int p = 0; p < m.cols; p++){
@@ -196,7 +196,7 @@ float confactor(Matrix m, int i, int j){
  *代数余子式
 */
 float algebraic_confactor(Matrix m, int i, int j){  
-    return confactor(m, i, j)*pow(-1, i+j);
+    return confactor(m, i, j)*((i+j) % 2 ? -1 : 1);
 }
 
 /**
